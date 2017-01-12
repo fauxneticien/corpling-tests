@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://korpling.german.hu-berlin.de/saltnpepper/pepper/schema/10/pepper.rnc" type="application/relax-ng-compact-syntax"?>
+<pepper-job version="1.0">
+	<!-- paths defined relative to /dependencies/pepper/ -->
+	<importer name="ElanImporter" path="../../raw/north-wind/">
+		<property key="primTextTierName">text</property>
+		<property key="segTierNames">IP</property>
+	</importer>
+	<exporter name="ANNISExporter" path="_export/"/>
+</pepper-job>
