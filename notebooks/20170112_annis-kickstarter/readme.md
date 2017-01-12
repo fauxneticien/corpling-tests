@@ -26,7 +26,7 @@ The status shows Annis stopped, since the database hasn't been configured yet.
 
 ### 3. Initialise ANNIS
 
-Press the `Init to update your database` button, and enter the Postgres details. The default password for the official Postgres container on the Docker container is `mysecretpassword`.
+Press the `Init to update your database` button, and enter the Postgres details. The default password for the official Postgres container from DockerHub is `mysecretpassword`.
 
 ![](media/Screen Shot 2017-01-12 at 5.38.24 PM.png)
 
