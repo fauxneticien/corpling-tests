@@ -3,8 +3,8 @@
 <pepper-job version="1.0">
 	<!-- paths defined relative to /dependencies/pepper/ -->
 	<importer name="ElanImporter" path="../../raw/north-wind/">
-		<property key="primTextTierName">text</property>
-		<property key="segTierNames">IP</property>
+		<property key="elan.importer.primTextTierName">text</property>
+		<property key="elan.importer.segTierNames">IP</property>
 	</importer>
 	<exporter name="ANNISExporter" path="_export/"/>
 </pepper-job>
